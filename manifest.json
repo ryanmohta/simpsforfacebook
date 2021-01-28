@@ -1,13 +1,23 @@
 {
     "name": "Simps for Facebook",
-    "version": "1.0",
-    "description": "tbd",
+    "version": "4066.135",
+    "description": "The choice is simp-le",
 
     "content_scripts": [{
       "js": ["script.js"],
       "matches": ["https://*.facebook.com/*"],
       "run_at": "document_start"
     }],
+
+    "page_action": {
+      "default_icon": {
+        "128": "images/simp2.png"
+      }
+    },
+
+    "icons": {
+      "128": "images/simp.png"
+    },
 
     "manifest_version": 2
 
