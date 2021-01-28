@@ -1,0 +1,14 @@
+{
+    "name": "Simps for Facebook",
+    "version": "1.0",
+    "description": "tbd",
+
+    "content_scripts": [{
+      "js": ["script.js"],
+      "matches": ["https://*.facebook.com/*"],
+      "run_at": "document_start"
+    }],
+
+    "manifest_version": 2
+
+}
