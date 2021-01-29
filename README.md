@@ -11,6 +11,5 @@ Channel your inner Josh with the ***Simps for Facebook*** Chrome extension, the 
 * Click the "Load unpacked" button in the top left corner, and open the folder you just cloned
 * That's it! Feel free to turn Developer Mode off now, you won't be needing it anymore
 
-***Dedicated to the homi(e)s in Dating Advice 🐸***
-
+***Dedicated to the homi(e)s in Dating Advice 🐸***<br>
 _Enjoying Simps for Facebook? Gift me Discord Nitro! [@brohta#9999](http://discord.com/users/549481690054131722)_
