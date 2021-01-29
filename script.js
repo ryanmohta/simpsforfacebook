@@ -1,14 +1,13 @@
 document.addEventListener("DOMContentLoaded", function () {
   setInterval(function(){
-    let headers = document.getElementsByClassName('o3w64lxj');
-    for (var i = 0; i < headers.length; i++) {
-      headers[i].innerHTML = headers[i].innerHTML.replace('Pokes', 'Simps');
-    }
 
-    let bodies = document.getElementsByClassName('ni8dbmo4');
-    for (var i = 0; i < bodies.length; i++) {
-      bodies[i].innerHTML = bodies[i].innerHTML.replace('poked', 'simped for');
-      bodies[i].innerHTML = bodies[i].innerHTML.replace('Poke', 'Simp');
+    var html = document.querySelector('html');
+    var walker = document.createTreeWalker(html, NodeFilter.SHOW_TEXT);
+    var node;
+    while (node = walker.nextNode()) {
+      node.nodeValue = node.nodeValue.replace('Pokes', 'Simps');
+      node.nodeValue = node.nodeValue.replace('poked', 'simped for');
+      node.nodeValue = node.nodeValue.replace('Poke', 'Simp');
     }
 
     let searchBars = document.getElementsByClassName('rv4hoivh');
